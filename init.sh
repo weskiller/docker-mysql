@@ -7,7 +7,7 @@ else
 	exit 1
 fi
 
-if [ "$(echo /var/lib/mysql/*)" == '/var/lib/mysq/*' ];then
+if [ "$(echo /var/lib/mysql/*)" == '/var/lib/mysql/*' ];then
 	mysql_install_db --defaults-file=${mysql_config}
 fi
 
