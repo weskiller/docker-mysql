@@ -5,4 +5,4 @@ ENV TZ=Asia/Chongqing
 EXPOSE 3306
 USER root
 WORKDIR /
-CMD ["/bin/bash","init.sh"]
+CMD ["/bin/bash","init.sh"
