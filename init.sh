@@ -1,6 +1,6 @@
 #!/bin/bash
 exec >&2
-socket=/var/lib/mysql/mysql.sock
+path_socket=/var/lib/mysql/mysql.sock
 if [ -f /etc/my.cnf ];then
 	mysql_config="/etc/my.cnf"
 	path_socket=$(grep -i socker $mysql_config|awk '{print $2}')
